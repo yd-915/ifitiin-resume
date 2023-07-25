@@ -11,11 +11,7 @@
     "update-dependencies": "ncu -x nanoid --deep -u && pnpm install",
     "generate-env": "ts-node ./scripts/generate-env.ts"
   },
-  "workspaces": [
-    "schema",
-    "client",
-    "server"
-  ],
+ 
   "dependencies": {
     "dotenv-cli": "^7.2.1"
   },
